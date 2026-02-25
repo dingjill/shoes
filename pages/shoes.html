@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>百丽集团 象象小游</title>
-	<link rel="icon" type="png" href="https://gcore.jsdelivr.net/gh/dingjill/shoes@main/pages/Jill_icon.png">
+	<link rel="icon" type="png" href="/pages/Jill_icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         * {
@@ -24,7 +24,7 @@
         /* 标题栏样式 */
         .header {
             min-height: 60px;
-            max-height: 60px;
+            max-height: 120px;
             background: white /* linear-gradient(135deg, #2491ff 0%, #247cff 100%)*/;
             color: black;
             padding: 10px 20px;
@@ -41,7 +41,7 @@
         }
 
         .header-title {
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 600;
             margin-bottom: 3px;
         }
@@ -56,13 +56,14 @@
             background: rgba(0, 0, 0, 0.9);
             border: 1px solid rgba(255, 255, 255, 0.3);
             color: white;
-            padding: 6px 16px;
+            padding: 4px 9px;
             border-radius: 6px;
             font-size: 13px;
 			font-weight: 400;
             cursor: pointer;
             transition: all 0.3s ease;
             text-decoration: none;
+			min-width: 114px;
         }
 
         .header-button:hover {
@@ -90,19 +91,19 @@
         }
 
         .tab {
-            padding: 8px 8px;
+            padding: 6px 6px;
             background: white;
             border: none;
             border-bottom: 3px solid transparent;
             cursor: pointer;
-            font-size: 13px;
+            font-size: 12px;
             color: #64748b;
             font-weight: 500;
             white-space: nowrap;
             transition: all 0.2s ease;
-            min-width: 60px;
+            min-width: 45px;
             flex: 1 1 auto;
-            max-width: 120px;
+            max-width: 100px;
         }
 
         .tab:hover {
@@ -111,8 +112,8 @@
         }
 
         .tab.active {
-            color: #667eea;
-            border-bottom-color: #667eea;
+            color: #394250;
+            border-bottom-color: #394250;
             background: #f8fafc;
         }
 
